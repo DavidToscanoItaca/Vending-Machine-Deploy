@@ -1,0 +1,107 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ephemeral environments
+environments/gab.yaml
+environments/fra.yaml
+
+# terraform
+terraform/.terraform*
+terraform.tfstate
+terraform/swagger-output-tfm.json
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+src/services/rekord-service/package-lock.json
+src/services/rekord-service/src/swagger-output.json
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# hardhat
+**/hardhat/node_modules
+**/hardhat/.env
+**/hardhat/coverage
+**/hardhat/coverage.json
+**/hardhat/typechain
+**/hardhat/typechain-types
+**/hardhat/cache
+**/hardhat/artifacts
+
+# forge
+**/foundry/cache/
+**/foundry/out/
+**/foundry/.env
+
+
+# wagmi recommends to ignore their generated file
+# /src/abis.ts 
+
+# subgraph
+**/subgraph/node_modules
+**/subgraph/build
+
+# idea
+.idea/
+
+#node modules
+node_modules
+
+#nextjs 
+.next
+
+**/dist
+
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log
+crash.log
+
+# Exclude secrets files
+*.tfvars
+secrets.tfvars
+
+# Terraform temporary directory
+.terraform/
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
