@@ -13,12 +13,12 @@ This repository contains the infrastructure code (Terraform) and deployment inst
 
 ## Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/34e132a4-6eeb-49e1-b9de-1168b493703b)
+![image](images/aws_architecture.png)
 
 
 
 
-![image](https://github.com/user-attachments/assets/fd65fa13-a934-4ead-9eba-58628b6c5d26)
+![image](images/logical_architecture.png)
 
 
 
